@@ -1,0 +1,24 @@
+use("espoch-store")
+db.colores.drop()
+db.colores.insertMany([
+{
+    
+    name:"amarillo",
+    tipo: "primario"
+},
+{
+    
+    name:"azul",
+    tipo:"primario"
+},
+{
+    
+    name:"verde",
+    tipo:"secundarios"
+},
+{
+    _id:4,
+    name:"rojo",
+    tipo:"primario"
+},
+])

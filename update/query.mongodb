@@ -1,0 +1,2 @@
+use("espoch-store")
+db.product.find()

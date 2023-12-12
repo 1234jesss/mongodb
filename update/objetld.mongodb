@@ -1,0 +1,10 @@
+use("espoch-store")
+db.colores.updateOne(
+    {_id:ObjectId("6578bc7e2c37429f6f1f763f")},
+    {
+        $set:{
+            "tipo": 7,
+        }
+        
+    }
+)

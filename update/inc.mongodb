@@ -1,0 +1,11 @@
+use("espoch-store")
+db.colores.updateOne(
+    {_id:2},
+    {
+        $inc:{
+            tipo:100
+        }
+        
+    }
+)
+//jessica 
